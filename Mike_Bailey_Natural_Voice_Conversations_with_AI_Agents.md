@@ -6,7 +6,7 @@
 
 ## Abstract
 
-What if you could talk to your AI coding agent the way you talk to a colleague? VoiceMode is an open-source project that brings natural voice conversations to AI agents — turning text-based interactions into fluid, hands-free collaboration.
+What if you could speak with your AI coding agent the way you would a colleague? [VoiceMode](https://github.com/mbailey/voicemode) is a free and open-source project that brings natural voice conversations to AI agents — turning text-based interactions into fluid, hands-free, screen-optional collaboration.
 
 In this talk, I'll demonstrate live voice conversations with AI agents, show how voice changes the way developers interact with their tools, and explore what it means when your AI pair programmer can actually listen and respond naturally.
 
