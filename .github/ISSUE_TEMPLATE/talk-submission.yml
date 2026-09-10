@@ -1,0 +1,51 @@
+name: Talk Submission
+description: Form to submit a request to speak at one of our meetups
+title: "[CFP]: <Title of your talk> <your name>"
+assignees: MishManners
+body:
+- type: input
+  attributes:
+    label: Proposed title of your talk
+    description: What is the title of your talk
+    placeholder: ie. How to use the GitHub CLI
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Name
+    description: Please provide your full name
+    placeholder: ie. Michelle Duke
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Talk abstract
+    description: Please provide a short abstract for your talk.
+    placeholder: ie. How to level up your Git game with GitHub CLI. Using Git in the CLI can improve your development speed and power. Here are our top eight commands for using GitHub via your command line.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Availability
+    description: Let us know when you are available to give this talk
+    placeholder: ie. At the November 2026 meetup.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Social Media
+    description: Please post a link to any social media or anything for promotion
+    placeholder: ex. https://mishmanners.info
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Anything else to add?
+    description: If you would like to add any more information, please add it below. If your software uses a different versioning system other than version by number (ie. 1.0, 2.0 etc.), please let us know here (ie. version by name, version by date). 
+    placeholder: You rock!
+  validations:
+    required: false
+- type: markdown
+    attributes:
+      value: |
+        ### Thanks for taking the time to submit. Make sure you join our [Discord Server](https://discord.gg/EYPjSUv5P) to stay up to date with everything.
