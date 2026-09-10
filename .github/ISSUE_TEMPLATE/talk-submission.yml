@@ -2,6 +2,7 @@ name: Talk Submission
 description: Form to submit a request to speak at one of our meetups
 title: "[CFP]: <Title of your talk> <your name>"
 assignees: MishManners
+labels: talk-submission
 body:
 - type: input
   attributes:
@@ -28,7 +29,7 @@ body:
   attributes:
     label: Availability
     description: Let us know when you are available to give this talk
-    placeholder: ie. At the November 2026 meetup.
+    placeholder: ie. At the November 2026 meetup
   validations:
     required: true
 - type: input
