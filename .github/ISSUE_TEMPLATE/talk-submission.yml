@@ -46,5 +46,5 @@ body:
   validations:
     required: false
 - type: markdown
-    attributes:
-      value: "Thanks for taking the time to submit. Make sure you join our [Discord Server](https://discord.gg/EYPjSUv5P) to stay up to date with everything."
+  attributes:
+    value: "Thanks for taking the time to submit. Make sure you join our [Discord Server](https://discord.gg/EYPjSUv5P) to stay up to date with everything."
